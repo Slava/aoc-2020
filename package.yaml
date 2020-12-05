@@ -1,0 +1,82 @@
+name:                aoc
+version:             0.1.0.0
+github:              "Slava/aoc"
+license:             BSD3
+author:              "Slava Kim"
+maintainer:          "imslavko@gmail.com"
+copyright:           "2020 Slava Kim"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         AOC 2019
+
+dependencies:
+- base >= 4.7 && < 5
+- vector
+- split
+- containers
+- extra
+- regex-tdfa
+
+library:
+  source-dirs: lib
+
+executables:
+  day01:
+    main:                day01.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day01-2:
+    main:                day01-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day02:
+    main:                day02.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day02-2:
+    main:                day02-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day03:
+    main:                day03.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day03-2:
+    main:                day03-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day04:
+    main:                day04.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day04-2:
+    main:                day04-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day05:
+    main:                day05.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day05-2:
+    main:                day05-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
