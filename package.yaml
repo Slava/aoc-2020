@@ -80,3 +80,23 @@ executables:
     source-dirs:         src
     dependencies:
     - aoc
+  day06:
+    main:                day06.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day06-2:
+    main:                day06-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day07:
+    main:                day07.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day07-2:
+    main:                day07-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
