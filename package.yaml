@@ -110,3 +110,13 @@ executables:
     source-dirs:         src
     dependencies:
     - aoc
+  day09:
+    main:                day09.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day09-2:
+    main:                day09-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
