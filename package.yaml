@@ -25,6 +25,7 @@ dependencies:
 - containers
 - extra
 - regex-tdfa
+- array
 
 library:
   source-dirs: lib
@@ -117,6 +118,16 @@ executables:
     - aoc
   day09-2:
     main:                day09-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day10:
+    main:                day10.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day10-2:
+    main:                day10-2.hs
     source-dirs:         src
     dependencies:
     - aoc
