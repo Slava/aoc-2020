@@ -141,3 +141,13 @@ executables:
     source-dirs:         src
     dependencies:
     - aoc
+  day12:
+    main:                day12.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day12-2:
+    main:                day12-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
