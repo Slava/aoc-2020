@@ -201,3 +201,19 @@ executables:
     source-dirs:         src
     dependencies:
     - aoc
+  day18:
+    main:                day18.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+    - text
+    - megaparsec
+    - parser-combinators
+  day18-2:
+    main:                day18-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+    - text
+    - megaparsec
+    - parser-combinators
