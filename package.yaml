@@ -217,3 +217,13 @@ executables:
     - text
     - megaparsec
     - parser-combinators
+  day19:
+    main:                day19.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day19-2:
+    main:                day19-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
