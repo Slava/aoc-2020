@@ -237,3 +237,13 @@ executables:
     source-dirs:         src
     dependencies:
     - aoc
+  day21:
+    main:                day21.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day21-2:
+    main:                day21-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
