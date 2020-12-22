@@ -247,3 +247,13 @@ executables:
     source-dirs:         src
     dependencies:
     - aoc
+  day22:
+    main:                day22.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
+  day22-2:
+    main:                day22-2.hs
+    source-dirs:         src
+    dependencies:
+    - aoc
